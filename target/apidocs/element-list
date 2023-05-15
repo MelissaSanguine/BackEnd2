@@ -1,0 +1,15 @@
+com.portfolio.mgb
+com.portfolio.mgb.Controller
+com.portfolio.mgb.Dto
+com.portfolio.mgb.Entity
+com.portfolio.mgb.Interface
+com.portfolio.mgb.Repository
+com.portfolio.mgb.Security
+com.portfolio.mgb.Security.Controller
+com.portfolio.mgb.Security.Dto
+com.portfolio.mgb.Security.Entity
+com.portfolio.mgb.Security.Enums
+com.portfolio.mgb.Security.jwt
+com.portfolio.mgb.Security.Repository
+com.portfolio.mgb.Security.Service
+com.portfolio.mgb.Service

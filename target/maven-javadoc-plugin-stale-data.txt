@@ -1,0 +1,172 @@
+@options
+@packages
+@argfile
+-classpath
+'C:/Users/Usuario/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/2.6.7/spring-boot-starter-data-jpa-2.6.7.jar;C:/Users/Usuario/.m2/repository/org/springframework/boot/spring-boot-starter-aop/2.6.7/spring-boot-starter-aop-2.6.7.jar;C:/Users/Usuario/.m2/repository/org/aspectj/aspectjweaver/1.9.7/aspectjweaver-1.9.7.jar;C:/Users/Usuario/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/2.6.7/spring-boot-starter-jdbc-2.6.7.jar;C:/Users/Usuario/.m2/repository/com/zaxxer/HikariCP/4.0.3/HikariCP-4.0.3.jar;C:/Users/Usuario/.m2/repository/org/springframework/spring-jdbc/5.3.19/spring-jdbc-5.3.19.jar;C:/Users/Usuario/.m2/repository/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3.jar;C:/Users/Usuario/.m2/repository/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar;C:/Users/Usuario/.m2/repository/org/hibernate/hibernate-core/5.6.8.Final/hibernate-core-5.6.8.Final.jar;C:/Users/Usuario/.m2/repository/org/jboss/logging/jboss-logging/3.4.3.Final/jboss-logging-3.4.3.Final.jar;C:/Users/Usuario/.m2/repository/net/bytebuddy/byte-buddy/1.11.22/byte-buddy-1.11.22.jar;C:/Users/Usuario/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar;C:/Users/Usuario/.m2/repository/org/jboss/jandex/2.4.2.Final/jandex-2.4.2.Final.jar;C:/Users/Usuario/.m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar;C:/Users/Usuario/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.1.2.Final/hibernate-commons-annotations-5.1.2.Final.jar;C:/Users/Usuario/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.6/jaxb-runtime-2.3.6.jar;C:/Users/Usuario/.m2/repository/org/glassfish/jaxb/txw2/2.3.6/txw2-2.3.6.jar;C:/Users/Usuario/.m2/repository/com/sun/istack/istack-commons-runtime/3.0.12/istack-commons-runtime-3.0.12.jar;C:/Users/Usuario/.m2/repository/org/springframework/data/spring-data-jpa/2.6.4/spring-data-jpa-2.6.4.jar;C:/Users/Usuario/.m2/repository/org/springframework/data/spring-data-commons/2.6.4/spring-data-commons-2.6.4.jar;C:/Users/Usuario/.m2/repository/org/springframework/spring-orm/5.3.19/spring-orm-5.3.19.jar;C:/Users/Usuario/.m2/repository/org/springframework/spring-context/5.3.19/spring-context-5.3.19.jar;C:/Users/Usuario/.m2/repository/org/springframework/spring-tx/5.3.19/spring-tx-5.3.19.jar;C:/Users/Usuario/.m2/repository/org/springframework/spring-beans/5.3.19/spring-beans-5.3.19.jar;C:/Users/Usuario/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar;C:/Users/Usuario/.m2/repository/org/springframework/spring-aspects/5.3.19/spring-aspects-5.3.19.jar;C:/Users/Usuario/.m2/repository/org/springframework/boot/spring-boot-starter-validation/2.6.7/spring-boot-starter-validation-2.6.7.jar;C:/Users/Usuario/.m2/repository/org/springframework/boot/spring-boot-starter/2.6.7/spring-boot-starter-2.6.7.jar;C:/Users/Usuario/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.6.7/spring-boot-starter-logging-2.6.7.jar;C:/Users/Usuario/.m2/repository/ch/qos/logback/logback-classic/1.2.11/logback-classic-1.2.11.jar;C:/Users/Usuario/.m2/repository/ch/qos/logback/logback-core/1.2.11/logback-core-1.2.11.jar;C:/Users/Usuario/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.17.2/log4j-to-slf4j-2.17.2.jar;C:/Users/Usuario/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.2/log4j-api-2.17.2.jar;C:/Users/Usuario/.m2/repository/org/slf4j/jul-to-slf4j/1.7.36/jul-to-slf4j-1.7.36.jar;C:/Users/Usuario/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar;C:/Users/Usuario/.m2/repository/org/yaml/snakeyaml/1.29/snakeyaml-1.29.jar;C:/Users/Usuario/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/9.0.62/tomcat-embed-el-9.0.62.jar;C:/Users/Usuario/.m2/repository/org/hibernate/validator/hibernate-validator/6.2.3.Final/hibernate-validator-6.2.3.Final.jar;C:/Users/Usuario/.m2/repository/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2.jar;C:/Users/Usuario/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.6.7/spring-boot-starter-web-2.6.7.jar;C:/Users/Usuario/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.6.7/spring-boot-starter-json-2.6.7.jar;C:/Users/Usuario/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.13.2/jackson-datatype-jdk8-2.13.2.jar;C:/Users/Usuario/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.2/jackson-datatype-jsr310-2.13.2.jar;C:/Users/Usuario/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.13.2/jackson-module-parameter-names-2.13.2.jar;C:/Users/Usuario/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.6.7/spring-boot-starter-tomcat-2.6.7.jar;C:/Users/Usuario/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.62/tomcat-embed-core-9.0.62.jar;C:/Users/Usuario/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.62/tomcat-embed-websocket-9.0.62.jar;C:/Users/Usuario/.m2/repository/org/springframework/spring-web/5.3.19/spring-web-5.3.19.jar;C:/Users/Usuario/.m2/repository/org/springframework/spring-webmvc/5.3.19/spring-webmvc-5.3.19.jar;C:/Users/Usuario/.m2/repository/org/springframework/spring-expression/5.3.19/spring-expression-5.3.19.jar;C:/Users/Usuario/.m2/repository/org/springframework/boot/spring-boot/2.6.7/spring-boot-2.6.7.jar;C:/Users/Usuario/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.6.7/spring-boot-autoconfigure-2.6.7.jar;C:/Users/Usuario/.m2/repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar;C:/Users/Usuario/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar;C:/Users/Usuario/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar;C:/Users/Usuario/.m2/repository/org/springframework/spring-core/5.3.19/spring-core-5.3.19.jar;C:/Users/Usuario/.m2/repository/org/springframework/spring-jcl/5.3.19/spring-jcl-5.3.19.jar;C:/Users/Usuario/.m2/repository/org/springframework/boot/spring-boot-starter-security/2.6.7/spring-boot-starter-security-2.6.7.jar;C:/Users/Usuario/.m2/repository/org/springframework/spring-aop/5.3.19/spring-aop-5.3.19.jar;C:/Users/Usuario/.m2/repository/org/springframework/security/spring-security-config/5.6.3/spring-security-config-5.6.3.jar;C:/Users/Usuario/.m2/repository/org/springframework/security/spring-security-core/5.6.3/spring-security-core-5.6.3.jar;C:/Users/Usuario/.m2/repository/org/springframework/security/spring-security-crypto/5.6.3/spring-security-crypto-5.6.3.jar;C:/Users/Usuario/.m2/repository/org/springframework/security/spring-security-web/5.6.3/spring-security-web-5.6.3.jar;C:/Users/Usuario/.m2/repository/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.jar;C:/Users/Usuario/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.2.1/jackson-databind-2.13.2.1.jar;C:/Users/Usuario/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.2/jackson-annotations-2.13.2.jar;C:/Users/Usuario/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.2/jackson-core-2.13.2.jar;C:/Users/Usuario/.m2/repository/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'1.8'
+-sourcepath
+'D:/Escritorio/cris/ArgMeli/MeliSanguine/BackEnd1/src/main/java;D:/Escritorio/cris/ArgMeli/MeliSanguine/BackEnd1/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2023. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'D:/Escritorio/cris/ArgMeli/MeliSanguine/BackEnd1/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'mgb.Produccion 0.0.1-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' 'D:/Escritorio/cris/ArgMeli/MeliSanguine/BackEnd1/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'mgb.Produccion 0.0.1-SNAPSHOT API'
+com.portfolio.mgb.Controller
+com.portfolio.mgb.Dto
+com.portfolio.mgb.Entity
+com.portfolio.mgb.Interface
+com.portfolio.mgb
+com.portfolio.mgb.Repository
+com.portfolio.mgb.Security.Controller
+com.portfolio.mgb.Security.Dto
+com.portfolio.mgb.Security.Entity
+com.portfolio.mgb.Security.Enums
+com.portfolio.mgb.Security.jwt
+com.portfolio.mgb.Security
+com.portfolio.mgb.Security.Repository
+com.portfolio.mgb.Security.Service
+com.portfolio.mgb.Service
+'D:/Escritorio/cris/ArgMeli/MeliSanguine/BackEnd1/src/main/java/com/portfolio/mgb/Controller/CEducacion.java'
+'D:/Escritorio/cris/ArgMeli/MeliSanguine/BackEnd1/src/main/java/com/portfolio/mgb/Controller/CExperiencia.java'
+'D:/Escritorio/cris/ArgMeli/MeliSanguine/BackEnd1/src/main/java/com/portfolio/mgb/Controller/CHys.java'
+'D:/Escritorio/cris/ArgMeli/MeliSanguine/BackEnd1/src/main/java/com/portfolio/mgb/Controller/PersonaController.java'
+'D:/Escritorio/cris/ArgMeli/MeliSanguine/BackEnd1/src/main/java/com/portfolio/mgb/Dto/dtoEducacion.java'
+'D:/Escritorio/cris/ArgMeli/MeliSanguine/BackEnd1/src/main/java/com/portfolio/mgb/Dto/dtoExperiencia.java'
+'D:/Escritorio/cris/ArgMeli/MeliSanguine/BackEnd1/src/main/java/com/portfolio/mgb/Dto/dtoHys.java'
+'D:/Escritorio/cris/ArgMeli/MeliSanguine/BackEnd1/src/main/java/com/portfolio/mgb/Dto/dtoPersona.java'
+'D:/Escritorio/cris/ArgMeli/MeliSanguine/BackEnd1/src/main/java/com/portfolio/mgb/Entity/Educacion.java'
+'D:/Escritorio/cris/ArgMeli/MeliSanguine/BackEnd1/src/main/java/com/portfolio/mgb/Entity/Experiencia.java'
+'D:/Escritorio/cris/ArgMeli/MeliSanguine/BackEnd1/src/main/java/com/portfolio/mgb/Entity/hys.java'
+'D:/Escritorio/cris/ArgMeli/MeliSanguine/BackEnd1/src/main/java/com/portfolio/mgb/Entity/Persona.java'
+'D:/Escritorio/cris/ArgMeli/MeliSanguine/BackEnd1/src/main/java/com/portfolio/mgb/Interface/IPersonaService.java'
+'D:/Escritorio/cris/ArgMeli/MeliSanguine/BackEnd1/src/main/java/com/portfolio/mgb/MgbApplication.java'
+'D:/Escritorio/cris/ArgMeli/MeliSanguine/BackEnd1/src/main/java/com/portfolio/mgb/Repository/IPersonaRepository.java'
+'D:/Escritorio/cris/ArgMeli/MeliSanguine/BackEnd1/src/main/java/com/portfolio/mgb/Repository/REducacion.java'
+'D:/Escritorio/cris/ArgMeli/MeliSanguine/BackEnd1/src/main/java/com/portfolio/mgb/Repository/RExperiencia.java'
+'D:/Escritorio/cris/ArgMeli/MeliSanguine/BackEnd1/src/main/java/com/portfolio/mgb/Repository/Rhys.java'
+'D:/Escritorio/cris/ArgMeli/MeliSanguine/BackEnd1/src/main/java/com/portfolio/mgb/Security/Controller/AuthController.java'
+'D:/Escritorio/cris/ArgMeli/MeliSanguine/BackEnd1/src/main/java/com/portfolio/mgb/Security/Controller/Mensaje.java'
+'D:/Escritorio/cris/ArgMeli/MeliSanguine/BackEnd1/src/main/java/com/portfolio/mgb/Security/Dto/JwtDto.java'
+'D:/Escritorio/cris/ArgMeli/MeliSanguine/BackEnd1/src/main/java/com/portfolio/mgb/Security/Dto/LoginUsuario.java'
+'D:/Escritorio/cris/ArgMeli/MeliSanguine/BackEnd1/src/main/java/com/portfolio/mgb/Security/Dto/NuevoUsuario.java'
+'D:/Escritorio/cris/ArgMeli/MeliSanguine/BackEnd1/src/main/java/com/portfolio/mgb/Security/Entity/Rol.java'
+'D:/Escritorio/cris/ArgMeli/MeliSanguine/BackEnd1/src/main/java/com/portfolio/mgb/Security/Entity/Usuario.java'
+'D:/Escritorio/cris/ArgMeli/MeliSanguine/BackEnd1/src/main/java/com/portfolio/mgb/Security/Entity/UsuarioPrincipal.java'
+'D:/Escritorio/cris/ArgMeli/MeliSanguine/BackEnd1/src/main/java/com/portfolio/mgb/Security/Enums/RolNombre.java'
+'D:/Escritorio/cris/ArgMeli/MeliSanguine/BackEnd1/src/main/java/com/portfolio/mgb/Security/jwt/JwtEntryPoint.java'
+'D:/Escritorio/cris/ArgMeli/MeliSanguine/BackEnd1/src/main/java/com/portfolio/mgb/Security/jwt/JwtProvider.java'
+'D:/Escritorio/cris/ArgMeli/MeliSanguine/BackEnd1/src/main/java/com/portfolio/mgb/Security/jwt/JwtTokenFilter.java'
+'D:/Escritorio/cris/ArgMeli/MeliSanguine/BackEnd1/src/main/java/com/portfolio/mgb/Security/MainSecurity.java'
+'D:/Escritorio/cris/ArgMeli/MeliSanguine/BackEnd1/src/main/java/com/portfolio/mgb/Security/Repository/iRolRepository.java'
+'D:/Escritorio/cris/ArgMeli/MeliSanguine/BackEnd1/src/main/java/com/portfolio/mgb/Security/Repository/iUsuarioRepository.java'
+'D:/Escritorio/cris/ArgMeli/MeliSanguine/BackEnd1/src/main/java/com/portfolio/mgb/Security/Service/RolService.java'
+'D:/Escritorio/cris/ArgMeli/MeliSanguine/BackEnd1/src/main/java/com/portfolio/mgb/Security/Service/UserDetailsImpl.java'
+'D:/Escritorio/cris/ArgMeli/MeliSanguine/BackEnd1/src/main/java/com/portfolio/mgb/Security/Service/UsuarioService.java'
+'D:/Escritorio/cris/ArgMeli/MeliSanguine/BackEnd1/src/main/java/com/portfolio/mgb/Service/ImpPersonaService.java'
+'D:/Escritorio/cris/ArgMeli/MeliSanguine/BackEnd1/src/main/java/com/portfolio/mgb/Service/Seducacion.java'
+'D:/Escritorio/cris/ArgMeli/MeliSanguine/BackEnd1/src/main/java/com/portfolio/mgb/Service/SExperiencia.java'
+'D:/Escritorio/cris/ArgMeli/MeliSanguine/BackEnd1/src/main/java/com/portfolio/mgb/Service/Shys.java'
+C:\Users\Usuario\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\2.6.7\spring-boot-starter-data-jpa-2.6.7.jar = 1684152493739
+C:\Users\Usuario\.m2\repository\org\springframework\boot\spring-boot-starter-aop\2.6.7\spring-boot-starter-aop-2.6.7.jar = 1684152493794
+C:\Users\Usuario\.m2\repository\org\aspectj\aspectjweaver\1.9.7\aspectjweaver-1.9.7.jar = 1684152495657
+C:\Users\Usuario\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\2.6.7\spring-boot-starter-jdbc-2.6.7.jar = 1684152493796
+C:\Users\Usuario\.m2\repository\com\zaxxer\HikariCP\4.0.3\HikariCP-4.0.3.jar = 1684152493907
+C:\Users\Usuario\.m2\repository\org\springframework\spring-jdbc\5.3.19\spring-jdbc-5.3.19.jar = 1684152494185
+C:\Users\Usuario\.m2\repository\jakarta\transaction\jakarta.transaction-api\1.3.3\jakarta.transaction-api-1.3.3.jar = 1684014786112
+C:\Users\Usuario\.m2\repository\jakarta\persistence\jakarta.persistence-api\2.2.3\jakarta.persistence-api-2.2.3.jar = 1684014786194
+C:\Users\Usuario\.m2\repository\org\hibernate\hibernate-core\5.6.8.Final\hibernate-core-5.6.8.Final.jar = 1684152501430
+C:\Users\Usuario\.m2\repository\org\jboss\logging\jboss-logging\3.4.3.Final\jboss-logging-3.4.3.Final.jar = 1684152493952
+C:\Users\Usuario\.m2\repository\net\bytebuddy\byte-buddy\1.11.22\byte-buddy-1.11.22.jar = 1684152497739
+C:\Users\Usuario\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar = 1684014830481
+C:\Users\Usuario\.m2\repository\org\jboss\jandex\2.4.2.Final\jandex-2.4.2.Final.jar = 1684073909828
+C:\Users\Usuario\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar = 1684014830411
+C:\Users\Usuario\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.1.2.Final\hibernate-commons-annotations-5.1.2.Final.jar = 1684152494143
+C:\Users\Usuario\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.6\jaxb-runtime-2.3.6.jar = 1684152495232
+C:\Users\Usuario\.m2\repository\org\glassfish\jaxb\txw2\2.3.6\txw2-2.3.6.jar = 1684152494429
+C:\Users\Usuario\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.12\istack-commons-runtime-3.0.12.jar = 1684152494573
+C:\Users\Usuario\.m2\repository\org\springframework\data\spring-data-jpa\2.6.4\spring-data-jpa-2.6.4.jar = 1684152495267
+C:\Users\Usuario\.m2\repository\org\springframework\data\spring-data-commons\2.6.4\spring-data-commons-2.6.4.jar = 1684152496704
+C:\Users\Usuario\.m2\repository\org\springframework\spring-orm\5.3.19\spring-orm-5.3.19.jar = 1684152495593
+C:\Users\Usuario\.m2\repository\org\springframework\spring-context\5.3.19\spring-context-5.3.19.jar = 1684152497151
+C:\Users\Usuario\.m2\repository\org\springframework\spring-tx\5.3.19\spring-tx-5.3.19.jar = 1684152496093
+C:\Users\Usuario\.m2\repository\org\springframework\spring-beans\5.3.19\spring-beans-5.3.19.jar = 1684152497069
+C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar = 1684074127528
+C:\Users\Usuario\.m2\repository\org\springframework\spring-aspects\5.3.19\spring-aspects-5.3.19.jar = 1684152496903
+C:\Users\Usuario\.m2\repository\org\springframework\boot\spring-boot-starter-validation\2.6.7\spring-boot-starter-validation-2.6.7.jar = 1684152497040
+C:\Users\Usuario\.m2\repository\org\springframework\boot\spring-boot-starter\2.6.7\spring-boot-starter-2.6.7.jar = 1684152497147
+C:\Users\Usuario\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.6.7\spring-boot-starter-logging-2.6.7.jar = 1684152497160
+C:\Users\Usuario\.m2\repository\ch\qos\logback\logback-classic\1.2.11\logback-classic-1.2.11.jar = 1684152497528
+C:\Users\Usuario\.m2\repository\ch\qos\logback\logback-core\1.2.11\logback-core-1.2.11.jar = 1684152497735
+C:\Users\Usuario\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.17.2\log4j-to-slf4j-2.17.2.jar = 1684152497290
+C:\Users\Usuario\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar = 1684152497710
+C:\Users\Usuario\.m2\repository\org\slf4j\jul-to-slf4j\1.7.36\jul-to-slf4j-1.7.36.jar = 1684152497643
+C:\Users\Usuario\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar = 1684014791812
+C:\Users\Usuario\.m2\repository\org\yaml\snakeyaml\1.29\snakeyaml-1.29.jar = 1684152498027
+C:\Users\Usuario\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\9.0.62\tomcat-embed-el-9.0.62.jar = 1684152498025
+C:\Users\Usuario\.m2\repository\org\hibernate\validator\hibernate-validator\6.2.3.Final\hibernate-validator-6.2.3.Final.jar = 1684152499229
+C:\Users\Usuario\.m2\repository\jakarta\validation\jakarta.validation-api\2.0.2\jakarta.validation-api-2.0.2.jar = 1684152497938
+C:\Users\Usuario\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.6.7\spring-boot-starter-web-2.6.7.jar = 1684152498046
+C:\Users\Usuario\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.6.7\spring-boot-starter-json-2.6.7.jar = 1684152498107
+C:\Users\Usuario\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.13.2\jackson-datatype-jdk8-2.13.2.jar = 1684152498127
+C:\Users\Usuario\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.13.2\jackson-datatype-jsr310-2.13.2.jar = 1684152498244
+C:\Users\Usuario\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.13.2\jackson-module-parameter-names-2.13.2.jar = 1684152498226
+C:\Users\Usuario\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.6.7\spring-boot-starter-tomcat-2.6.7.jar = 1684152498236
+C:\Users\Usuario\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.62\tomcat-embed-core-9.0.62.jar = 1684152501818
+C:\Users\Usuario\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.62\tomcat-embed-websocket-9.0.62.jar = 1684152498670
+C:\Users\Usuario\.m2\repository\org\springframework\spring-web\5.3.19\spring-web-5.3.19.jar = 1684152500208
+C:\Users\Usuario\.m2\repository\org\springframework\spring-webmvc\5.3.19\spring-webmvc-5.3.19.jar = 1684152499909
+C:\Users\Usuario\.m2\repository\org\springframework\spring-expression\5.3.19\spring-expression-5.3.19.jar = 1684152499648
+C:\Users\Usuario\.m2\repository\org\springframework\boot\spring-boot\2.6.7\spring-boot-2.6.7.jar = 1684152501580
+C:\Users\Usuario\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.6.7\spring-boot-autoconfigure-2.6.7.jar = 1684152501738
+C:\Users\Usuario\.m2\repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar = 1684152503183
+C:\Users\Usuario\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar = 1684152502327
+C:\Users\Usuario\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar = 1684152502323
+C:\Users\Usuario\.m2\repository\org\springframework\spring-core\5.3.19\spring-core-5.3.19.jar = 1684152504578
+C:\Users\Usuario\.m2\repository\org\springframework\spring-jcl\5.3.19\spring-jcl-5.3.19.jar = 1684152503324
+C:\Users\Usuario\.m2\repository\org\springframework\boot\spring-boot-starter-security\2.6.7\spring-boot-starter-security-2.6.7.jar = 1684152503672
+C:\Users\Usuario\.m2\repository\org\springframework\spring-aop\5.3.19\spring-aop-5.3.19.jar = 1684152504136
+C:\Users\Usuario\.m2\repository\org\springframework\security\spring-security-config\5.6.3\spring-security-config-5.6.3.jar = 1684152504966
+C:\Users\Usuario\.m2\repository\org\springframework\security\spring-security-core\5.6.3\spring-security-core-5.6.3.jar = 1684152504552
+C:\Users\Usuario\.m2\repository\org\springframework\security\spring-security-crypto\5.6.3\spring-security-crypto-5.6.3.jar = 1684152504339
+C:\Users\Usuario\.m2\repository\org\springframework\security\spring-security-web\5.6.3\spring-security-web-5.6.3.jar = 1684152504983
+C:\Users\Usuario\.m2\repository\io\jsonwebtoken\jjwt\0.9.1\jjwt-0.9.1.jar = 1684014814667
+C:\Users\Usuario\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.2.1\jackson-databind-2.13.2.1.jar = 1684152505584
+C:\Users\Usuario\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.2\jackson-annotations-2.13.2.jar = 1684152504823
+C:\Users\Usuario\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.2\jackson-core-2.13.2.jar = 1684152505173
+C:\Users\Usuario\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar = 1684014809444
+D:\Escritorio\cris\ArgMeli\MeliSanguine\BackEnd1\src\main\java = 1684183567063
+D:\Escritorio\cris\ArgMeli\MeliSanguine\BackEnd1\target\generated-sources\annotations = 1684185446337
+D:\Escritorio\cris\ArgMeli\MeliSanguine\BackEnd1\target\apidocs\allclasses-index.html = 1684185452350
+D:\Escritorio\cris\ArgMeli\MeliSanguine\BackEnd1\target\apidocs\allpackages-index.html = 1684185452352
+D:\Escritorio\cris\ArgMeli\MeliSanguine\BackEnd1\target\apidocs\element-list = 1684185452140
+D:\Escritorio\cris\ArgMeli\MeliSanguine\BackEnd1\target\apidocs\help-doc.html = 1684185452396
+D:\Escritorio\cris\ArgMeli\MeliSanguine\BackEnd1\target\apidocs\index-all.html = 1684185452389
+D:\Escritorio\cris\ArgMeli\MeliSanguine\BackEnd1\target\apidocs\index.html = 1684185452332
+D:\Escritorio\cris\ArgMeli\MeliSanguine\BackEnd1\target\apidocs\jquery-ui.overrides.css = 1684185452405
+D:\Escritorio\cris\ArgMeli\MeliSanguine\BackEnd1\target\apidocs\member-search-index.js = 1684185452354
+D:\Escritorio\cris\ArgMeli\MeliSanguine\BackEnd1\target\apidocs\module-search-index.js = 1684185452352
+D:\Escritorio\cris\ArgMeli\MeliSanguine\BackEnd1\target\apidocs\overview-summary.html = 1684185452391
+D:\Escritorio\cris\ArgMeli\MeliSanguine\BackEnd1\target\apidocs\overview-tree.html = 1684185452329
+D:\Escritorio\cris\ArgMeli\MeliSanguine\BackEnd1\target\apidocs\package-search-index.js = 1684185452352
+D:\Escritorio\cris\ArgMeli\MeliSanguine\BackEnd1\target\apidocs\script.js = 1684185452399
+D:\Escritorio\cris\ArgMeli\MeliSanguine\BackEnd1\target\apidocs\search.js = 1684185452400
+D:\Escritorio\cris\ArgMeli\MeliSanguine\BackEnd1\target\apidocs\serialized-form.html = 1684185452219
+D:\Escritorio\cris\ArgMeli\MeliSanguine\BackEnd1\target\apidocs\stylesheet.css = 1684185452398
+D:\Escritorio\cris\ArgMeli\MeliSanguine\BackEnd1\target\apidocs\tag-search-index.js = 1684185452355
+D:\Escritorio\cris\ArgMeli\MeliSanguine\BackEnd1\target\apidocs\type-search-index.js = 1684185452353
